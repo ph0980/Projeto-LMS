@@ -4,6 +4,15 @@ table,tr,td{
     border-collapse: collapse;
     padding: 50px;
     text-align: center;
+    background-color: azure;
+}
+
+.titulo{
+    color: darkblue;
+}
+
+caption{
+    font-weight: bolder;
 }
 
 table{

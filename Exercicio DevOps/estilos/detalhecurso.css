@@ -1,11 +1,17 @@
 table{
     text-align: center;
     margin: auto;
+    background-color: azure;
+}
+
+td{
+    padding-bottom: 20px;
 }
 
 caption{
     font-weight: bolder;
     padding-bottom: 10px;
+    color: darkblue;
 }
 
 .principal{
