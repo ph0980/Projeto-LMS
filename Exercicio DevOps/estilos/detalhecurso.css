@@ -1,0 +1,16 @@
+table{
+    text-align: center;
+    margin: auto;
+}
+
+caption{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.principal{
+    display: block;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
