@@ -1,48 +1,58 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>LISTA DE CURSOS</title>
-        <link rel="stylesheet" type="text/css" href="../estilos/site.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/listacursos.css">
-    </head>
-    <body>
-        <header>
-                <img class="logo" src="../img/logo-impacta.jpg">
-                <h1>Faculdade Impacta</h1><br>
-                <div>
-                    <ul id="menu">
-                        <li><a href="../../index.html">HOME</a></li>
-                        <li><a href="listaCursos.html">CURSOS</a></li>
-                        <li><a href="detalheCurso.html">DETALHES DOS CURSOS</a></li>
-                        <li><a href="disciplina.html">DISCIPLINAS</a></li>
-                        <li><a href="noticias.html">NOTÍCIAS</a></li>
-                    </ul>
-                </div>
-        </header>
-        <div class="principal">
-            <h1 class='titulo'>Lista de cursos</h1>
-            <table>
-                <caption>Cursos disponíveis</caption>
-                <tr>
-                    <td>Administração</td>
-                    <td>Análise e desenvolvimento de sistemas</td>
-                    <td>Banco de dados</td>
-                </tr>
-                <tr>
-                    <td>Gestão da tecnologia da informação</td>
-                    <td>Jogos digitais</td>
-                    <td>Processos gerenciais</td>
-                </tr>
-                <tr>
-                    <td>Produção multimídia</td>
-                    <td>Redes de computadores</td>
-                    <td>Sistemas de informação</td>
-                </tr>
-                
-            </table> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LISTA DE CURSOS</title>
+    <!-- Css para resetar algumas propriedades diferentes da padrão by Kise -->
+    <link rel="stylesheet" href="../css/normakise.css">
+    <!-- Css de estilos padrões do projeto -->
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="../index.html"><img src="../img/logo.png" alt="[Faculdade Impacta]"></a>
+            </h1>
+            <nav class="topMenu">
+                <ul class="menu">
+                    <li class="menuItem"><a href="index.html" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="../detalheCurso/index.html" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="../disciplina/index.html" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="../noticias/index.html" class="menuLink">Notícias</a></li>
+                </ul>
+            </nav>
         </div>
-        <footer>
-            <p>Exercicio Devops - 13/09/2018</p>
-        </footer>
-    </body>
+    </header>
+    <div class="principal">
+        <h1 class='titulo'>Lista de cursos</h1>
+        <table>
+            <caption>Cursos disponíveis</caption>
+            <tr>
+                <td>Administração</td>
+                <td>Análise e desenvolvimento de sistemas</td>
+                <td>Banco de dados</td>
+            </tr>
+            <tr>
+                <td>Gestão da tecnologia da informação</td>
+                <td>Jogos digitais</td>
+                <td>Processos gerenciais</td>
+            </tr>
+            <tr>
+                <td>Produção multimídia</td>
+                <td>Redes de computadores</td>
+                <td>Sistemas de informação</td>
+            </tr>
+
+        </table>
+    </div>
+    <footer>
+        <p>Exercicio Devops - 13/09/2018</p>
+    </footer>
+</body>
+
 </html>
