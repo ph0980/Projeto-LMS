@@ -1,31 +1,52 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>HOME</title>
-        <link rel="stylesheet" type="text/css" href="Exercicio DevOps/estilos/site.css">
-    </head>
-    <body>
-        <header>
-                <img class="logo" src="Exercicio DevOps/img/logo-impacta.jpg">
-                <h1>Faculdade Impacta</h1><br>
-                <div>
-                    <ul id="menu">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="Exercicio DevOps/html/listaCursos.html">CURSOS</a></li>
-                        <li><a href="Exercicio DevOps/html/detalheCurso.html">DETALHES DOS CURSOS</a></li>
-                        <li><a href="Exercicio DevOps/html/disciplina.html">DISCIPLINAS</a></li>
-                        <li><a href="Exercicio DevOps/html/noticias.html">NOTÍCIAS</a></li>
-                    </ul>
-                </div>
-        </header>
-        <div class="principal">
-            <p>VESTIBULAR 2018 2º Semestre<br>
-            SABE COMO A TECNOLOGI MUDA O FUTURO ?<br>
-            <a href="https://www.impacta.edu.br/" target="_blank">SITE DA FACULDADE</a>
-        </p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/normakise.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="[Faculdade Impacta]"></a>
+            </h1>
+            <nav class="topMenu">
+                <ul class="menu">
+                    <li class="menuItem"><a href="listaCursos/index.html" class="menuLink">Cursos</a></li>
+                    <li class="menuItem"><a href="detalheCurso/index.html" class="menuLink">Detalhes dos Cursos</a></li>
+                    <li class="menuItem"><a href="disciplina/index.html" class="menuLink">Disciplinas</a></li>
+                    <li class="menuItem"><a href="noticias/index.html" class="menuLink">Notícias</a></li>
+                </ul>
+            </nav>
         </div>
-        <footer>
+    </header>
+    <div class="conteudo">
+
+        <div class="destaque">
+            <div class="destaqueTitulo">
+                <h2 class="tituloEsquerda">Vestibular 2018</h2>
+                <h3 class="tituloDireita">2º Semestre</h3>
+            </div>
+            <p class="destaqueTexto">
+                Sabe como a Tecnologia muda o
+                <img src="https://www.impacta.edu.br/themes/wc_agenciar3/images/landing-page/vestibular-20182/futuro.png"
+                    alt="Futuro" class="DestaqueTextoImg">
+                ?
+            </p>
+            <a href="https://www.impacta.edu.br" target="_blank" class="botao destaqueBotao">Últimas Vagas</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
             <p>Exercicio Devops - 13/09/2018</p>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>
