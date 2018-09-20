@@ -5,10 +5,12 @@ table,tr,td{
     padding: 50px;
     text-align: center;
     background-color: azure;
+    color: black;
 }
 
 .titulo{
-    color: darkblue;
+    color: lightblue;
+    text-align: center;
 }
 
 caption{

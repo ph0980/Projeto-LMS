@@ -2,6 +2,7 @@ table{
     text-align: center;
     margin: auto;
     background-color: azure;
+    color: black;
 }
 
 td{
@@ -11,7 +12,7 @@ td{
 caption{
     font-weight: bolder;
     padding-bottom: 10px;
-    color: darkblue;
+    color: lightblue;
 }
 
 .principal{
