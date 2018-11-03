@@ -26,8 +26,8 @@ SECRET_KEY = 'u1u5)2iur-g-6kyz522a3eg5q_@3c0d!5+3$=a72hu0sq8c$31'
 DEBUG = True
 
 #host do azure
-#ALLOWED_HOSTS = ['lms-proj-2018.azurewebsites.net']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lms-proj-2018.azurewebsites.net','127.0.0.1','localhost']
+
 
 
 # Application definition
