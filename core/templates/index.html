@@ -5,10 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HOME</title>
         <!-- Css para resetar algumas propriedades diferentes da padrão by Kise -->
-        <link rel="stylesheet" href="/static/estilo/normakise.css">
-        <!-- Css de estilos padrões do projeto -->
+        {% load static %}
+        <link rel="stylesheet" href="{% static '/estilo/normakise.css' %}" >
+        <link rel="stylesheet" href="{% static '/estilo/site.css' %}">
+        <link rel="stylesheet" href="{% static '/estilo/estilos.css' %}">
+        <!-- <link rel="stylesheet" href="/static/estilo/normakise.css">
+        <!-- Css de estilos padrões do projeto 
         <link rel="stylesheet" type="text/css" href="/static/estilo/site.css">
-        <link rel="stylesheet" href="/static/estilo/estilos.css">
+        <link rel="stylesheet" href="/static/estilo/estilos.css"> -->
     </head>
 
     <body>
